@@ -96,7 +96,7 @@ body {
 }
 
 /* linker-section start */
-.linker-section {}
+
 
 .container-2 {
     width: 70%;
@@ -116,7 +116,7 @@ hr {}
     display: flex;
 }
 
-.image img {}
+
 
 
 /* collection-section */
@@ -124,7 +124,7 @@ hr {}
     margin: 50px 0;
 }
 
-.populer-collection {}
+
 
 .collection-section h2 {
     text-align: center;
@@ -138,7 +138,6 @@ hr {}
     grid-row-gap: 31px;
 }
 
-.populer {}
 
 .collection {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -166,7 +165,7 @@ hr {}
     font-size: 16px;
 }
 
-.star {}
+
 
 .star i {
     font-size: 14px;
@@ -179,7 +178,7 @@ hr {}
 
 
 /* feature section */
-.feature-section {}
+
 
 .see-more {
     text-align: end;
@@ -191,7 +190,7 @@ hr {}
     color: #f70707;
 }
 
-.see-more i {}
+
 
 .features {
     margin: 30px 0;
@@ -216,7 +215,7 @@ hr {}
     margin: 0 0 20px 0;
 }
 
-.half-feature img {}
+
 
 .half-feature h1 {
     font-size: 38px;
@@ -246,7 +245,7 @@ hr {}
     padding: 35px 0;
 }
 
-.icon {}
+
 
 .icon li {
     list-style: none;
