@@ -277,6 +277,14 @@ hr {}
         font-size: 20px;
     }
 
+    .link span {
+        font-size: 10px;
+    }
+
+    .banner i {
+        font-size: 12px;
+    }
+
     .linker {
 
 
