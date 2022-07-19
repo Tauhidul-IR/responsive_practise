@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Gantari&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+}
+
+
+
+.half-menu h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+.half-menu nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.half-menu nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.banners {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    width: 50%;
+}
+
+
+.banner h1 {
+    font-size: 52px;
+}
+
+.link {
+    background-color: #e76464;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
+
+.link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.link span {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.banner i {
+    font-size: 16px;
+}
+
+
+.banner img {
+    background-image: url(images/Circle_design.svg);
+    width: 92%;
+    background-repeat: no-repeat;
+}
+
+/* linker-section start */
+.linker-section {}
+
+.container-2 {}
+
+.linker {}
+
+.image {}
+
+.image img {}
