@@ -249,8 +249,15 @@ hr {}
     margin: 10px;
 }
 
-.icon a {}
+.icon a {
+    columns: white;
+}
 
 .icon ul {
     padding: 0;
+}
+
+.fa-brands,
+.fab {
+    color: white;
 }
