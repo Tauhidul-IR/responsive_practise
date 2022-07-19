@@ -53,6 +53,11 @@ body {
     width: 50%;
 }
 
+.camera {
+    background-image: url(images/Circle_design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .banner h1 {
     font-size: 52px;
@@ -84,9 +89,9 @@ body {
 
 
 .banner img {
-    background-image: url(images/Circle_design.svg);
-    width: 92%;
-    background-repeat: no-repeat;
+
+    width: 100%;
+
     padding-bottom: 20px;
 }
 
@@ -128,7 +133,7 @@ hr {}
 
 .collections {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 33% 33% 33%;
     grid-column-gap: 20px;
     grid-row-gap: 31px;
 }
@@ -142,7 +147,7 @@ hr {}
 }
 
 .collection img {
-    width: 270px;
+    width: 98%;
     height: 200px;
 }
 
@@ -211,7 +216,7 @@ hr {}
     margin: 0 0 20px 0;
 }
 
-.half-feature span {}
+.half-feature img {}
 
 .half-feature h1 {
     font-size: 38px;
@@ -261,3 +266,175 @@ hr {}
 .fab {
     color: white;
 }
+
+
+/* media /responsive */
+@media only screen and (max-width:688px) {
+    .banners {
+        flex-direction: column-reverse;
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .linker {
+
+
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-row-gap: 20px;
+    }
+
+    .image img {
+        width: 50%;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .half-feature {
+        width: 80%;
+    }
+
+    .half-feature h1 {
+        font-size: 20px;
+    }
+
+    .half-feature p {
+        font-size: 12px;
+    }
+
+    .half-feature img {
+        width: 100%;
+    }
+
+    .footer-section h3 {
+        font-size: 20px;
+    }
+
+    .footer-section p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .collections {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .populer-collection {
+        position: relative;
+    }
+
+    .see-more {
+        position: absolute;
+        bottom: 250px;
+        right: 100px;
+    }
+
+    .half-feature {
+        width: 100%;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .half-feature img {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    .banner h1 {
+        font-size: 42px;
+    }
+
+    .half-feature h1 {
+        font-size: 30px;
+        margin: 0 0 10px 20px;
+    }
+
+    .half-feature p {
+        margin: 0 0 20px 20px;
+    }
+
+    .half-feature a {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width:1201px) {}
+
+
+@media only screen and (min-width:689px) and (max-width:920px) {
+    .linker {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .half-menu h3 {
+        font-size: 18px;
+    }
+
+    .half-menu nav ul li {
+        margin: 5px;
+    }
+
+    .half-menu nav ul li a {
+        font-size: 15px;
+    }
+
+}
+
+
+@media only screen and (min-width:689px) {
+    .header-section .menu-2 {
+        display: none;
+    }
+
+
+
+}
+
+.menu-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-menu-2 li {
+    list-style: none;
+}
+
+.half-menu-2 i {}
+
+.half-menu-2 a {}
