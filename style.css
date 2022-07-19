@@ -178,6 +178,7 @@ hr {}
 
 .see-more {
     text-align: end;
+    margin: 30px 0;
 }
 
 .see-more a {
@@ -214,5 +215,42 @@ hr {}
 
 .half-feature h1 {
     font-size: 38px;
-    margin-top: 0;
+    margin: 0 0 10px 0;
+}
+
+/* footer-section */
+.footer-section {
+    background-color: #030d30;
+    text-align: center;
+}
+
+.footer-section h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.footer-section p {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.icon {}
+
+.icon li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.icon a {}
+
+.icon ul {
+    padding: 0;
 }
