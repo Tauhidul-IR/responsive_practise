@@ -46,6 +46,7 @@ body {
 .banners {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .banner {
@@ -86,15 +87,132 @@ body {
     background-image: url(images/Circle_design.svg);
     width: 92%;
     background-repeat: no-repeat;
+    padding-bottom: 20px;
 }
 
 /* linker-section start */
 .linker-section {}
 
-.container-2 {}
+.container-2 {
+    width: 70%;
+    margin: auto;
+}
 
-.linker {}
+.linker {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
 
-.image {}
+hr {}
+
+.image {
+    align-items: center;
+    display: flex;
+}
 
 .image img {}
+
+
+/* collection-section */
+.collection-section {
+    margin: 50px 0;
+}
+
+.populer-collection {}
+
+.collection-section h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 31px;
+}
+
+.populer {}
+
+.collection {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.collection img {
+    width: 270px;
+    height: 200px;
+}
+
+.collection h3 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.collection h4 {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 0;
+}
+
+.collection p {
+    font-size: 16px;
+}
+
+.star {}
+
+.star i {
+    font-size: 14px;
+    color: #ebb210;
+}
+
+.star span {
+    font-size: 14px;
+}
+
+
+/* feature section */
+.feature-section {}
+
+.see-more {
+    text-align: end;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #f70707;
+}
+
+.see-more i {}
+
+.features {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-feature {
+    width: 50%;
+}
+
+.half-feature a {
+    color: #f7f5f5;
+    text-decoration: none;
+    background-color: #eb188d;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.half-feature p {
+    margin: 0 0 20px 0;
+}
+
+.half-feature span {}
+
+.half-feature h1 {
+    font-size: 38px;
+    margin-top: 0;
+}
